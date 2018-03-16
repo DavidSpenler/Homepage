@@ -1,0 +1,88 @@
+* {
+	font-family: "arial";
+	color: white;
+	white-space: nowrap;
+}
+
+.footer {
+	margin-bottom: 10px;
+	background-color: #555555;
+}
+
+.node {
+	margin: 10px 10px 20px 10px;
+	border-radius: 30px;	
+	height: 250px;
+}
+
+h2 {
+	padding: 15px;
+	text-align: center;
+	margin: 0px;
+}
+
+a  {
+	text-decoration: none;
+}
+
+p {
+	margin: 10px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding: 10px;
+}
+
+p:hover {
+	background-color: white;
+	color: gray;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25.00%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50.00%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75.00%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100.0%;}
+
+[class*="col-"] {
+	float: left;
+}
+
+form {
+	background-color: #555555;
+}
+
+[type="text"] {
+	border-radius: 15px;
+	border: none;
+	color: black;
+	font-size: 24px;
+	padding: 15px;
+	height: 60px;
+	margin: auto;
+}
+
+button {
+	background-color: #008800;
+	border-radius: 15px;
+	border: none;
+	font-size: 24px;
+	padding: 15px;
+	width: 80px;
+	margin: 5px;
+	height: 60px;
+}
+
+button:hover {
+	background-color: #00aa00;
+}
+
+button:active {
+	background-color: #005500;
+}

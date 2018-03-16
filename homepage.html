@@ -1,0 +1,90 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title>David's Homepage</title>
+	<link rel="stylesheet" href="style-homepage.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<base target="_blank">
+</head>
+<body>
+	<script>
+		function openLink() {
+			var query = document.getElementsByName("text-query")[0].value;
+			console.log(query);
+			window.open("https://www.google.com/search?btnI=1&q="+query);
+		}		
+	</script>
+	<div class="col-12 footer">
+		<h1 style="text-align:center;">Homepage</h1>
+	</div>
+	<div class="col-3">
+		<div class="node" style="background-color:#995500">
+			<h2>Programming</h2>
+			<a href="https://docs.python.org/3/reference/index.html"><b><p>Python3</p></b></a>
+			<a href="https://en.cppreference.com/w/"><b><p>C++</p></b></a>
+			<a href="https://www.w3schools.com/jsref/"><b><p>Javascript</p></b></a>
+			<a href="https://www.w3schools.com/TAGs/"><b><p>HTML/CSS</p></b></a>
+		</div>
+		<div class="node" style="background-color:gray">
+			<h2>Coding</h2>
+			<a href="https://www.github.com"><b><p>Github</p></b></a>
+			<a href="https://stackoverflow.com/"><b><p>Stack Overflow</p></b></a>
+			<a href="https://leetcode.com/"><b><p>Leetcode</p></b></a>
+		</div>
+	</div>
+	<div class="col-3">
+		<div class="node" style="background-color:red">
+			<h2>School</h2>
+			<a href="https://uwaterloo.ca/engineering/"><b><p>Waterloo Home</p></b></a>
+			<a href="https://quest.pecs.uwaterloo.ca/psp/SS/ACADEMIC/SA/c/SA_LEARNER_SERVICES.SSS_STUDENT_CENTER.GBL"><b><p>Waterloo Quest</p></b></a>
+			<a href="https://login.microsoftonline.com"><b><p>Waterloo Email</p></b></a>
+			<a href="schoolpage.html"><b><p>More</p></b></a>
+		</div>
+		<div class="node" style="background-color:#bb00bb">
+			<h2>Social</h2>
+			<a href="https://www.facebook.com/"><b><p>Facebook</p></b></a>
+			<a href="https://www.twitter.com"><b><p>Twitter</p></b></a>
+			<a href="https://www.youtube.com"><b><p>Youtube</p></b></a>
+			<a href="https://www.google.com"><b><p>Google</p></b></a>
+		</div>
+	</div>
+	<div class="col-3">
+		<div class="node" style="background-color:#00dd00">
+			<h2>News</h2>
+			<a href="https://www.npr.org"><b><p>NPR</p></b></a>
+			<a href="https://apnews.com"><b><p>Associated Press</p></b></a>
+			<a href="https://www.cbc.ca"><b><p>CBC</p></b></a>
+		</div>
+		<div class="node" style="background-color:#eeaa00">
+			<h2>Reddit</h2>
+			<a href="https://www.reddit.com/r/linux"><b><p>Linux</p></b></a>
+			<a href="https://www.reddit.com/r/unixporn"><b><p>UnixDesktops</p></b></a>
+			<a href="https://www.reddit.com/r/askreddit"><b><p>Askreddit</p></b></a>
+			<a href="https://www.reddit.com/r/lifeprotips"><b><p>LifeProTips</p></b></a>
+		</div>
+	</div>
+	<div class="col-3">
+		<div class="node" style="background-color:#0000bb">
+			<h2>French</h2>
+			<a href="http://www.wordreference.com/enfr"><b><p>Word Reference</p></b></a>
+			<a href="http://www.france24.com/fr/"><b><p>France24</p></b></a>
+			<a href="https://boards.4chan.org/int/catalog#s=fr"><b><p>/fr/</p></b></a>
+		</div>
+		<div class="node" style="background-color:#ffee00">
+			<h2>German</h2>
+			<a href="http://www.wordreference.com/ende"><b><p>Word Reference</p></b></a>
+			<a href="https://translate.google.com/"><b><p>Google Translate</p></b></a>
+			<a href="http://www.spiegel.de/"><b><p>Spiegel</p></a>
+			<a href="https://boards.4chan.org/int/catalog#s=deutsch"><b><p>/deutsch/</p></b></a>
+		</div>
+	</div>
+	<div class="col-12 footer">
+		<h1 style="text-align: center">Search</h1>
+		<div style="margin-left:35%;margin-right:40%">
+			<input type="text" name="text-query" style="width:100%;margin:auto">
+			<button name="search-button" onclick="openLink()"><i class="fa fa-search"></i></button>
+		</div>
+	</div>
+</body>
+</html>
